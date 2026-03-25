@@ -1,0 +1,38 @@
+2026-03-26 03:34:50,949 | INFO | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None
+2026-03-26 03:34:52,230 | ERROR | General Error: BinanceRequestException: Invalid Response: 
+2026-03-26 03:34:58,731 | INFO | Placing order: BTCUSDT SELL LIMIT qty=0.001 price=60000.0
+2026-03-26 03:35:00,355 | ERROR | General Error: BinanceRequestException: Invalid Response: 
+2026-03-26 03:46:47,520 | INFO | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None
+2026-03-26 03:46:47,822 | ERROR | Binance API Error: APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-26 03:49:07,197 | INFO | Placing order: BTCUSDT BUY MARKET qty=0.002 price=None
+2026-03-26 03:49:07,825 | ERROR | Binance API Error: APIError(code=-2019): Margin is insufficient.
+2026-03-26 03:52:43,206 | INFO | Placing order: BTCUSDT BUY MARKET qty=0.002 price=None
+2026-03-26 03:52:43,808 | INFO | Response: {'orderId': 12993107604, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '1Fy85Eng1aHLJLfPgCoW7j', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774477363769}
+2026-03-26 03:52:53,910 | INFO | Placing order: BTCUSDT SELL LIMIT qty=0.002 price=60000.0
+2026-03-26 03:52:54,237 | ERROR | Binance API Error: APIError(code=-4024): Limit price can't be lower than 67441.26.
+2026-03-26 04:18:14,470 | INFO | Current Market Price: 71391.49818841
+2026-03-26 04:18:14,470 | ERROR | General Error: SELL LIMIT price must be >= market price (71391.49818841)
+2026-03-26 04:18:22,936 | INFO | Current Market Price: 71380.72746377
+2026-03-26 04:18:22,937 | ERROR | General Error: SELL LIMIT price must be >= market price (71380.72746377)
+2026-03-26 04:18:35,176 | INFO | Current Market Price: 71412.8
+2026-03-26 04:18:35,177 | INFO | Placing order: BTCUSDT | BUY | MARKET | qty=0.002 | price=None
+2026-03-26 04:18:35,379 | INFO | Order Response: {'orderId': 12993141112, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'QqQF2dVn1QMnRYC5On19Nr', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774478915320}
+2026-03-26 04:19:35,973 | INFO | Current Market Price: 71413.73425725
+2026-03-26 04:19:35,973 | INFO | Placing order: BTCUSDT | SELL | LIMIT | qty=0.002 | price=72000.0
+2026-03-26 04:19:36,205 | INFO | Order Response: {'orderId': 12993142193, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'ZQpK6WaXERp398wclxInZd', 'price': '72000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774478976134}
+2026-03-26 04:23:54,578 | INFO | Current Market Price: 71292.88222826
+2026-03-26 04:23:54,579 | INFO | Placing order: BTCUSDT | BUY | MARKET | qty=0.002 | price=None
+2026-03-26 04:23:55,458 | INFO | Final Order Status: {'orderId': 12993148318, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 't7ofqSEe9ljQraD0M4pJ4l', 'price': '0.00', 'avgPrice': '71332.00000', 'origQty': '0.002', 'executedQty': '0.002', 'cumQuote': '142.66400', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1774479234742, 'updateTime': 1774479234742}
+2026-03-26 04:24:04,165 | INFO | Current Market Price: 71287.4
+2026-03-26 04:24:04,166 | INFO | Placing order: BTCUSDT | SELL | LIMIT | qty=0.002 | price=72000.0
+2026-03-26 04:24:04,577 | INFO | Final Order Status: {'orderId': 12993148746, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'GbcZEnw427cEeLMlqrDQ5x', 'price': '72000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1774479244308, 'updateTime': 1774479244308}
+2026-03-26 04:38:53,579 | INFO | Leverage set to 10x
+2026-03-26 04:38:53,926 | INFO | Current Market Price: 71351.3
+2026-03-26 04:38:53,926 | INFO | Placing order: BTCUSDT | BUY | MARKET | qty=0.002 | price=None
+2026-03-26 04:38:54,549 | INFO | Available Balance: 4991.69750445 USDT
+2026-03-26 04:38:55,441 | INFO | Final Order Status: {'orderId': 12993183445, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'b0ZByPqzDVABx5Xp32fvza', 'price': '0.00', 'avgPrice': '71379.10000', 'origQty': '0.002', 'executedQty': '0.002', 'cumQuote': '142.75820', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1774480134692, 'updateTime': 1774480134692}
+2026-03-26 04:43:15,939 | INFO | Leverage set to 10x
+2026-03-26 04:43:16,132 | INFO | Current Market Price: 71302.63150362
+2026-03-26 04:43:16,132 | INFO | Placing order: BTCUSDT | BUY | MARKET | qty=0.002 | price=None
+2026-03-26 04:43:16,663 | INFO | Available Balance: 4990.81660117 USDT
+2026-03-26 04:43:17,359 | INFO | Final Order Status: {'orderId': 12993193696, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'FhiNpOtmnfZ3fwmOW9HglT', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'time': 1774480397098, 'updateTime': 1774480397098}
