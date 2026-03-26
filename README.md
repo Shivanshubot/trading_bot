@@ -1,32 +1,72 @@
-Binance Futures Testnet Trading Bot
+# Binance Futures Testnet Trading Bot
 
-Overview
-This is a Python-based CLI trading bot that interacts with Binance Futures Testnet (USDT-M). It supports MARKET and LIMIT orders with proper validation, logging, and error handling.
+## 📌 Overview
 
-Setup Instructions
-1. Clone Repository
+This is a Python-based CLI trading bot that interacts with Binance Futures Testnet (USDT-M).
+It supports MARKET and LIMIT orders with proper validation, logging, and error handling.
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone Repository
+
+```bash
 git clone <your_repo_url>
 cd trading_bot
-2. Create Virtual Environment
+```
+
+### 2. Create Virtual Environment
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
-3. Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4. Setup Environment Variables
-Create a .env file:
+```
+
+### 4. Setup Environment Variables
+
+Create a `.env` file:
+
+```
 BINANCE_API_KEY=your_key
 BINANCE_API_SECRET=your_secret
-Get API keys from: https://testnet.binancefuture.com
+```
 
-How to Run
-MARKET Order
+Get API keys from:
+https://testnet.binancefuture.com
+
+---
+
+## ▶️ How to Run
+
+### MARKET Order
+
+```bash
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
-LIMIT Order
-python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 72000
-Optional (with leverage)
-python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002 --leverage 10
+```
 
-Features
+### LIMIT Order
+
+```bash
+python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 72000
+```
+
+### Optional (with leverage)
+
+```bash
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002 --leverage 10
+```
+
+---
+
+## 🧠 Features
+
 * MARKET and LIMIT order support
 * BUY / SELL support
 * CLI input via argparse
@@ -37,28 +77,50 @@ Features
 * Balance check
 * Market price validation
 
-Logging
+---
+
+## 📊 Logging
+
 Logs are stored in:
+
+```
 logs/bot.log
+```
 
-Sample Logs
+---
 
-MARKET Order
+## 📁 Sample Logs
+
+### MARKET Order
+
+```
 INFO | Placing order: BTCUSDT BUY MARKET qty=0.002
 INFO | Order Response: {...}
 INFO | Final Order Status: FILLED
-LIMIT Order
+```
+
+### LIMIT Order
+
+```
 INFO | Placing order: BTCUSDT SELL LIMIT qty=0.002 price=72000
 INFO | Order Response: {...}
 INFO | Final Order Status: NEW
+```
 
-Assumptions
+---
+
+## ⚠️ Assumptions
+
 * Binance Futures Testnet account is active
 * API keys are valid and enabled for Futures trading
 * Minimum notional value (>= 100 USDT) is respected
 * Sufficient margin is available or leverage is used
 
-Notes
+---
+
+## 🚀 Notes
+
 * This bot uses Binance Futures Testnet (not real funds)
 * Can be easily extended to mainnet by changing API config
 
+---
