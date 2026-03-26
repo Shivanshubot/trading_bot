@@ -169,3 +169,73 @@ With **10x leverage**, required margin ≈ `14 USDT`
 
 ---
 
+
+## Example Output
+
+### MARKET Order
+
+```bash
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
+```
+
+Output:
+
+```
+ Order Request Summary
+Symbol: BTCUSDT
+Side: BUY
+Type: MARKET
+Quantity: 0.002
+
+ Current Market Price: 71412.8
+ Leverage set to 10x
+ Available Balance: 1000 USDT
+
+ Order Successful!
+Status: FILLED
+Executed Qty: 0.002
+Avg Price: 71400
+```
+
+---
+
+### LIMIT Order
+
+```bash
+python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price 72000
+```
+
+Output:
+
+```
+ Current Market Price: 71380
+
+ Order Successful!
+Status: NEW
+```
+
+
+## Project Architecture
+
+```
+CLI (cli.py)
+   ↓
+Order Logic (orders.py)
+   ↓
+Validation (validators.py)
+   ↓
+Binance Client (client.py)
+   ↓
+Binance Futures API
+```
+
+* `client.py` → Handles API connection
+* `orders.py` → Core trading logic
+* `validators.py` → Input validation
+* `logging_config.py` → Logging setup
+* `cli.py` → User interface
+
+---
+
+
+
