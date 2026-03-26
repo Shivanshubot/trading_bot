@@ -170,7 +170,7 @@ With **10x leverage**, required margin ≈ `14 USDT`
 ---
 
 
-## Example Output
+## 📊 Example Output
 
 ### MARKET Order
 
@@ -181,17 +181,17 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002
 Output:
 
 ```
- Order Request Summary
+📌 Order Request Summary
 Symbol: BTCUSDT
 Side: BUY
 Type: MARKET
 Quantity: 0.002
 
- Current Market Price: 71412.8
- Leverage set to 10x
- Available Balance: 1000 USDT
+📊 Current Market Price: 71412.8
+⚙️ Leverage set to 10x
+💰 Available Balance: 1000 USDT
 
- Order Successful!
+✅ Order Successful!
 Status: FILLED
 Executed Qty: 0.002
 Avg Price: 71400
@@ -208,12 +208,11 @@ python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price
 Output:
 
 ```
- Current Market Price: 71380
+📊 Current Market Price: 71380
 
- Order Successful!
+✅ Order Successful!
 Status: NEW
 ```
-
 
 ## Project Architecture
 
