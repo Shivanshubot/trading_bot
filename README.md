@@ -1,5 +1,12 @@
 # Binance Futures Testnet Trading Bot
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Working-success)
+![API](https://img.shields.io/badge/API-Binance%20Futures-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+# Binance Futures Testnet Trading Bot
+
 ## 📌 Overview
 
 This is a Python-based CLI trading bot that interacts with Binance Futures Testnet (USDT-M).
