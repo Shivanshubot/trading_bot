@@ -7,14 +7,14 @@
 
 # Binance Futures Testnet Trading Bot
 
-## 📌 Overview
+## Overview
 
 This is a Python-based CLI trading bot that interacts with Binance Futures Testnet (USDT-M).
 It supports MARKET and LIMIT orders with proper validation, logging, and error handling.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone Repository
 
@@ -50,7 +50,7 @@ https://testnet.binancefuture.com
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### MARKET Order
 
@@ -72,7 +72,7 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002 --lever
 
 ---
 
-## 🧠 Features
+## Features
 
 * MARKET and LIMIT order support
 * BUY / SELL support
@@ -86,7 +86,7 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002 --lever
 
 ---
 
-## 📊 Logging
+## Logging
 
 Logs are stored in:
 
@@ -96,7 +96,7 @@ logs/bot.log
 
 ---
 
-## 📁 Sample Logs
+## Sample Logs
 
 ### MARKET Order
 
@@ -116,7 +116,7 @@ INFO | Final Order Status: NEW
 
 ---
 
-## ⚠️ Assumptions
+## Assumptions
 
 * Binance Futures Testnet account is active
 * API keys are valid and enabled for Futures trading
@@ -125,14 +125,14 @@ INFO | Final Order Status: NEW
 
 ---
 
-## 🚀 Notes
+## Notes
 
 * This bot uses Binance Futures Testnet (not real funds)
 * Can be easily extended to mainnet by changing API config
 
 ---
 
-## ⚙️ Leverage Support
+## Leverage Support
 
 This bot supports configurable leverage for Binance Futures trading.
 
@@ -140,7 +140,7 @@ Leverage allows you to trade larger positions with a smaller amount of capital.
 
 ---
 
-### ▶️ Usage with Leverage
+### Usage with Leverage
 
 You can specify leverage using the `--leverage` flag:
 
@@ -150,7 +150,7 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002 --lever
 
 ---
 
-### 📊 Example
+### Example
 
 * Quantity: `0.002 BTC`
 * Price: ~`70,000 USDT`
@@ -160,7 +160,7 @@ With **10x leverage**, required margin ≈ `14 USDT`
 
 ---
 
-### ⚠️ Notes
+### Notes
 
 * Default leverage is set to **10x**
 * Leverage is applied per symbol before placing the order
