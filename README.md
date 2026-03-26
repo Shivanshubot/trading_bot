@@ -124,3 +124,41 @@ INFO | Final Order Status: NEW
 * Can be easily extended to mainnet by changing API config
 
 ---
+
+## ⚙️ Leverage Support
+
+This bot supports configurable leverage for Binance Futures trading.
+
+Leverage allows you to trade larger positions with a smaller amount of capital.
+
+---
+
+### ▶️ Usage with Leverage
+
+You can specify leverage using the `--leverage` flag:
+
+```bash
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.002 --leverage 10
+```
+
+---
+
+### 📊 Example
+
+* Quantity: `0.002 BTC`
+* Price: ~`70,000 USDT`
+* Notional Value: ~`140 USDT`
+
+With **10x leverage**, required margin ≈ `14 USDT`
+
+---
+
+### ⚠️ Notes
+
+* Default leverage is set to **10x**
+* Leverage is applied per symbol before placing the order
+* Higher leverage increases both potential profit and risk
+* Ensure sufficient margin is available in your Futures wallet
+
+---
+
